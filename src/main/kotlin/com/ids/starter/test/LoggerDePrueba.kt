@@ -5,7 +5,8 @@ import org.springframework.beans.factory.annotation.Value
 import org.springframework.boot.CommandLineRunner
 import org.springframework.stereotype.Component
 
-@Component
+//Comento el componente para que no se cree la clase
+//@Component
 class LoggerDePrueba(
     @Value("\${app.autor}") private val nombre: String,
     @Value("\${app.my.password}") private val myPassword: String,
