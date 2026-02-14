@@ -4,8 +4,10 @@ import org.slf4j.LoggerFactory
 import org.springframework.beans.factory.annotation.Value
 import org.springframework.boot.CommandLineRunner
 import org.springframework.stereotype.Component
+import org.springframework.context.annotation.Profile
 
 @Component
+@Profile("!default")
 class LoggerDePrueba(
     @Value("\${app.autor}") private val nombre: String,
     @Value("\${app.my.password}") private val myPassword: String,
