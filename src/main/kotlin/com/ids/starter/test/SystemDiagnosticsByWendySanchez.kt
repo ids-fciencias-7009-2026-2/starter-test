@@ -7,10 +7,10 @@ import org.springframework.stereotype.Component
 
 @Component
 class SystemDiagnosticsByWendySanchez(
-    @Value("\${APP_NAME}") private val nombreApp: String,
-    @Value("\${APP_ENV}") private val entorno: String,
-    @Value("\${STUDENT_NAME}") private val nombreEstudiante: String,
-    @Value("\${MAX_USERS}") private val maxUsuarios: String
+    @Value("\${app.name}") private val nombreApp: String,
+    @Value("\${app.env}") private val entorno: String,
+    @Value("\${app.student.name}") private val nombreEstudiante: String,
+    @Value("\${app.max.users}") private val maxUsuarios: String
 
     ) : CommandLineRunner {
 
