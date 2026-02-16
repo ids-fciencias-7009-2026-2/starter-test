@@ -8,10 +8,10 @@ import org.springframework.boot.CommandLineRunner
 @Component
 class SystemDiagnosticsByAriadnaGarcia(
 
-    @Value("\${APP_NAME}") private val appName: String,
-    @Value("\${APP_ENV}") private val appEnv: String,
-    @Value("\${STUDENT_NAME}") private val studentName: String,
-    @Value("\${MAX_USERS}") private val maxUsers: Int
+    @Value("\${app.name}") private val appName: String,
+    @Value("\${app.name}") private val appEnv: String,
+    @Value("\${app.student.name}") private val studentName: String,
+    @Value("\${app.max.users}") private val maxUsers: Int
 
 ) : CommandLineRunner {
     private val logger = LoggerFactory.getLogger(SystemDiagnosticsByAriadnaGarcia::class.java)
