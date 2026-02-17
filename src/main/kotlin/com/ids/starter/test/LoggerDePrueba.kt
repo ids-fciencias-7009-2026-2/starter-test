@@ -5,7 +5,8 @@ import org.springframework.beans.factory.annotation.Value
 import org.springframework.boot.CommandLineRunner
 import org.springframework.stereotype.Component
 
-@Component
+// Comentario para omitir este logger/clase de prueba.
+// @Component
 class LoggerDePrueba(
     @Value("\${app.autor}") private val nombre: String,
     @Value("\${app.my.password}") private val myPassword: String,
