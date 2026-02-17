@@ -5,7 +5,7 @@ import org.springframework.beans.factory.annotation.Value
 import org.springframework.boot.CommandLineRunner
 import org.springframework.stereotype.Component
 
-@Component
+//@Component
 class LoggerDePrueba(
     @Value("\${app.autor}") private val nombre: String,
     @Value("\${app.my.password}") private val myPassword: String,
