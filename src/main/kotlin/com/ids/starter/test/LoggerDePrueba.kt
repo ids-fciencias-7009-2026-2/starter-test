@@ -1,5 +1,5 @@
 package com.ids.starter.test
-
+/*
 import org.slf4j.LoggerFactory
 import org.springframework.beans.factory.annotation.Value
 import org.springframework.boot.CommandLineRunner
@@ -20,4 +20,4 @@ class LoggerDePrueba(
         logger.info("Mi nombre es $nombre")
         logger.error("My password es $myPassword")
     }
-}
+}*/
